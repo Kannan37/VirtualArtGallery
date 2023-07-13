@@ -24,9 +24,7 @@ html {
 .nav {
     float: right;
     margin: 1.5rem;
-    /* display: inline; */
     text-align: center;
-    /* margin-left: 30rem; */
 }
 
 .nav a {
@@ -77,9 +75,7 @@ a:hover {
     width: 13.5rem;
 }
 
-hr {
-    color: aqua;
-}
+
 
 .content1-author h1 {
     margin: 1rem;
