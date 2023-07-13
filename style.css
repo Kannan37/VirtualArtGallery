@@ -123,9 +123,12 @@ hr {
     font-size: 2.5rem;
 }
 
-.content1-art2 div {
-    padding: 2rem;
+.content1-art2 p {
+    word-spacing: 1rem;
+    margin: 5rem;
+    padding: 1rem;
     font-family: cursive;
+    font-size: 2.5rem;
 }
 
 .content1-art3 {
@@ -139,6 +142,7 @@ hr {
     width: 40rem;
     height: 30rem;
     animation: moveInLeft 2s;
+
 }
 
 .content1-art2 img:hover {
@@ -165,16 +169,36 @@ hr {
 
 .comments {
     margin-top: 2rem;
-    margin-left: 35rem;
+    margin-left: 35%;
 }
 
 .btn {
-    margin-left: 55rem;
+    margin: 1rem;
+    margin-left: 45%;
+    border-radius: 1rem;
+    width: 8rem;
+    height: 2.5rem;
+
 }
 
 .btn1 {
+    margin: 1rem;
     margin-left: 2rem;
+    border-radius: 1rem;
+    width: 8rem;
+    height: 2.5rem;
 }
+
+.btn:hover {
+    color: white;
+    background-color: black;
+}
+
+.btn1:hover {
+    color: white;
+    background-color: black;
+}
+
 
 @keyframes moveInLeft {
     0% {
