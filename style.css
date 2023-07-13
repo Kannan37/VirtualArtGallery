@@ -9,55 +9,34 @@ html {
 }
 
 .logo-box img {
-    max-width: 7rem;
+    max-width: 8rem;
     text-align: center;
 }
 
 .logo-box {
-    height: 7rem;
+    height: 8rem;
     background-color: black;
 
-}
-
-
-
-.nav {
-    float: right;
-    margin: 1.5rem;
-    text-align: center;
-}
-
-.nav a {
-    text-decoration: none;
-    color: white;
-    margin: 5rem;
-    font-size: 3rem;
-
-}
-
-a:hover {
-    color: rgb(253, 253, 253);
-    font-size: 3.1rem;
-    text-decoration: underline;
 }
 
 .content {
     margin: 0 5rem;
 }
 
+
 .header1 {
+    position: absolute;
+    display: inline;
+    color: white;
+    margin: 1.5rem;
     letter-spacing: .5rem;
     word-spacing: 1rem;
-    margin-left: 5rem;
+    margin-left: 18%;
     text-align: center;
     font-size: 5rem;
     text-transform: uppercase;
 }
 
-.header1:hover {
-    color: brown;
-    text-decoration: underline;
-}
 
 .content1 {
     margin: 2rem 5rem;
